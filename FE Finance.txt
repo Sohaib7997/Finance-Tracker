@@ -1,0 +1,44 @@
+App Screens Breakdown:
+
+
+
+1.Dashboard/Home Screen (1 screen)
+Main screen showing a quick summary of:
+Total income, expenses, savings progress.
+Graphs or charts displaying monthly expenses, savings vs goals, etc.
+Quick navigation to other sections (Income, Expenses, Goals, etc.)
+
+2.Income Management Screen (1 screen)
+Form to add new income sources.
+List of income transactions with filters (date range, amount, category).
+
+
+3.Expense Management Screen (1 screen)
+Form to add expenses.
+List of expenses with filters (date range, amount, category).
+
+4.Savings Goals Screen (1 screen)
+Form to set new savings goals (e.g., "Save $5000 for a vacation").
+Visual progress indicators for each goal.
+Option to adjust goal amounts.
+
+5.Financial Projections & Charts Screen (1 screen)
+Visual representation of income vs. expenses.
+Graphs showing trends over time (e.g., monthly income, yearly savings projections, spending trends).
+Pie charts, bar graphs, line charts using data visualization libraries (e.g., Chart.js, Recharts).
+
+6.Bill Reminders Screen (Bonus screen)
+Add recurring bills (e.g., rent, subscriptions).
+Notifications or reminders when bills are due. (WhatAPP SDK to be intregrated later for reminders)
+
+7.Settings/Profile Screen (1 screen)
+Allows users to manage their personal information, change passwords, and configure notification preferences.
+
+8.Export Data Screen (Bonus screen)
+Option to export data as CSV/PDF for financial reports.
+
+9.Landing Screen (1 screen)
+A brief overview of the app's features and an option to log in or sign up.
+
+Login/Signup Screen (1 screen)
+Users can authenticate via email/password or a third-party service (Google/Facebook, etc.)

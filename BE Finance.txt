@@ -1,0 +1,51 @@
+API Endpoints Overview:
+
+
+1.Income Management API's
+POST /income: Add a new income entry.
+GET /income: Retrieve all income records.
+DELETE /income/{id}: Delete an income record.
+PUT /income/{id}: Update an income record.
+
+2.Expense Management API's
+POST /expense: Add a new expense.
+GET /expense: Retrieve all expense records.
+DELETE /expense/{id}: Delete an expense record.
+PUT /expense/{id}: Update an expense record.
+
+3.Savings Goals API's
+POST /goals: Create a new savings goal.
+GET /goals: Retrieve all goals.
+PUT /goals/{id}: Update goal progress or amount.
+DELETE /goals/{id}: Delete a goal.
+
+4.Financial Data API's
+GET /financial-summary: Get aggregated data (total income, total expenses, savings, etc.).
+GET /charts/income-expenses: Get data for visual charts showing income vs. expenses.
+GET /charts/savings-goals: Get data for visualizing goal progress over time.
+GET /charts/expense-category: Pie chart data for category breakdown.
+
+5.Bill Reminder API's
+POST /bills: Add a new recurring bill.
+GET /bills: Retrieve all bills.
+DELETE /bills/{id}: Remove a bill.
+PUT /bills/{id}: Update a bill (e.g., change due date, amount).
+
+
+6.Currency Conversion API's
+GET /currency/rates: Retrieve current exchange rates for different currencies.
+You could integrate third-party services like Open Exchange Rates
+ or CurrencyLayer
+ for live data.
+
+7.Data Export API's
+GET /export/csv: Export all income/expense data to CSV format.
+GET /export/pdf: Export a report of financial data in PDF format.
+
+
+
+8.Authentication API's
+POST /auth/signup: Register a new user.
+POST /auth/login: Login for an existing user.
+POST /auth/logout: Logout user.
+GET /auth/user: Get user details (for profile screen).
