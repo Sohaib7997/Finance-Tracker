@@ -1,6 +1,6 @@
 import express, { Application, Request, Response } from "express";
 import cors from "cors";
-import authRoutes from "../src/auth";
+import authRoutes from "./auth";
 import pool from "./db";
 
 

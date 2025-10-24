@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import pool from "../src/db";
+import pool from "./db";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
